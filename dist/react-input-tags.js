@@ -2132,7 +2132,7 @@ exports.default = TagInput;
 
 var _tagInput = __webpack_require__(19);
 
-module.exports = _tagInput.TagInput;
+module.exports = { TagInput: _tagInput.TagInput };
 
 /***/ }),
 /* 21 */
