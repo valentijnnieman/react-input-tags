@@ -1,6 +1,6 @@
 # react-input-tags
 
-This is a component for an input that holds multiple inputs and displays them as tags. It can be used for entering multiple email addresses for example.
+This is a component for an input that holds multiple inputs and displays them as tags. It can be used for entering multiple email addresses for example. Live example here: https://valentijnnieman.github.io/react-input-tags/
 
 # How to install
 - `npm install git://github.com/valentijnnieman/react-input-tags.git`
