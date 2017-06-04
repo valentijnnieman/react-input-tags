@@ -2133,15 +2133,18 @@ exports.default = TagInput;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.TagInput = undefined;
 
 var _tagInput = __webpack_require__(19);
 
-var _tagInput2 = _interopRequireDefault(_tagInput);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.TagInput = _tagInput2.default;
+Object.keys(_tagInput).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _tagInput[key];
+    }
+  });
+});
 
 /***/ }),
 /* 21 */
