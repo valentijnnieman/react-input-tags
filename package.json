@@ -11,6 +11,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir dist",
+    "webpack": "webpack"
   },
   "babel": {
     "presets": ["es2015", "react"]
