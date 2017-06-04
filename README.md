@@ -13,3 +13,4 @@ example for entering multiple email addresses.
 - maxTags: the maximum amount of tags the input can hold
 - maxExceeded: callback function that fires when maxTags is exceeded
 
+The tags can be entered with a tab or a comma, and can be deleted by backspace or by clicking on the 'x' of the tag itself.
