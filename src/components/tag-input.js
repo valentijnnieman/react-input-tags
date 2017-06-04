@@ -1,7 +1,7 @@
 import React from 'react';
 import Tag from './tag.js' 
 
-export class TagInput extends React.Component {
+class TagInput extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -89,3 +89,5 @@ export class TagInput extends React.Component {
     </div>
   }
 }
+
+export default TagInput

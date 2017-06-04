@@ -1985,7 +1985,6 @@ module.exports = __webpack_require__(27);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.TagInput = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -2007,7 +2006,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var TagInput = exports.TagInput = function (_React$Component) {
+var TagInput = function (_React$Component) {
   _inherits(TagInput, _React$Component);
 
   function TagInput(props) {
@@ -2121,6 +2120,8 @@ var TagInput = exports.TagInput = function (_React$Component) {
 
   return TagInput;
 }(_react2.default.Component);
+
+exports.default = TagInput;
 
 /***/ }),
 /* 20 */
