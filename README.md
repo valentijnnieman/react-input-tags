@@ -2,6 +2,7 @@
 
 This is a component for an input that holds multiple inputs and displays them as tags. It is useful for
 example for entering multiple email addresses. 
+Live example here: https://valentijnnieman.github.io/react-input-tags/
 
 
 # How to use
