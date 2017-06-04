@@ -2176,7 +2176,11 @@ exports.default = Tag;
 "use strict";
 
 
-module.exports = __webpack_require__(19);
+var _tagInput = __webpack_require__(19);
+
+var _tagInput2 = _interopRequireDefault(_tagInput);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
 /* 22 */
