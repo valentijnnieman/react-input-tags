@@ -13,9 +13,9 @@ module.exports = {
       }
     ]
   },
-  entry: './src/main.js',
+  entry: './src/components/tag-input.js',
   output: {
-    filename: 'email_tags.js',
+    filename: 'react-input-tags.js',
     path: path.resolve('./', 'dist')
   }
 }
