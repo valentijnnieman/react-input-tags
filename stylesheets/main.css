@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.app {
+  width: 300px;
+  margin: 0 auto;
+  font-family: "Roboto";
+}
+
+/* TagInput component */
+.tag-input{
+  display: block;
+  border: 1px solid #e4e3e4;
+  border-radius: 4px;
+  margin: 8px 0px 16px;
+  padding: 2px 2px 0px 2px;
+}
+.tag-input:hover {
+  cursor: text;
+}
+.tag-input--focused{
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0,185,252,1);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0,185,252,1);
+  box-shadow: 0px 0px 1px 1px rgba(0,185,252,1);
+}
+.tag-input__input {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid white;
+  margin-bottom: 2px;
+  max-width: 100%;
+}
+.tag-input__input, .tag-input__input:focus {
+  outline: none;
+}
+
+/* Tag component */
+.tag {
+  display: inline-block;
+  border: 1px solid #e4e3e4;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+  padding: 8px;
+  font-size: 16px;
+  margin: 0px 2px 2px 0px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tag:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0,185,252,1);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0,185,252,1);
+  box-shadow: 0px 0px 1px 1px rgba(0,185,252,1);
+}
+.tag__close {
+  padding: 0px 8px;
+}
+.tag:focus .tag__close {
+  color: #5E9ED6;
+}
+
+/* Colors */
+.grey {
+  color: #6a6a6a;
+}
+.lightgrey {
+  color: lightgrey;
+}
+.black {
+  color: black;
+}
+/* Utility */
+.hidden {
+  display: none;
+}
