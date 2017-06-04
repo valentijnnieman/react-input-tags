@@ -2136,14 +2136,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _tagInput = __webpack_require__(19);
 
-Object.keys(_tagInput).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _tagInput[key];
-    }
-  });
+Object.defineProperty(exports, 'TagInput', {
+  enumerable: true,
+  get: function get() {
+    return _tagInput.TagInput;
+  }
 });
 
 /***/ }),
