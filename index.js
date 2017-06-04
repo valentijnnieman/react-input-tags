@@ -1,1 +1,2 @@
-module.exports = require('./src/components/tag-input.js');
+import { TagInput } from './src/components/tag-input.js';
+module.exports = TagInput ;

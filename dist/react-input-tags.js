@@ -2130,7 +2130,9 @@ exports.default = TagInput;
 "use strict";
 
 
-module.exports = __webpack_require__(19);
+var _tagInput = __webpack_require__(19);
+
+module.exports = _tagInput.TagInput;
 
 /***/ }),
 /* 21 */
