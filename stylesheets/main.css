@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.app {
-  width: 300px;
-  margin: 0 auto;
-  font-family: "Roboto";
-}
-
 /* TagInput component */
 .tag-input{
   display: block;
