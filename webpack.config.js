@@ -13,7 +13,7 @@ module.exports = {
       }
     ]
   },
-  entry: './index.js',
+  entry: './src/components/tag-input.js',
   output: {
     filename: 'react-input-tags.js',
     path: path.resolve('./', 'dist')
