@@ -2130,13 +2130,18 @@ exports.default = TagInput;
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.TagInput = undefined;
+
 var _tagInput = __webpack_require__(19);
 
 var _tagInput2 = _interopRequireDefault(_tagInput);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-module.exports = _tagInput2.default;
+exports.TagInput = _tagInput2.default;
 
 /***/ }),
 /* 21 */
