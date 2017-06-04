@@ -1,8 +1,8 @@
 {
-  "name": "input_tags",
+  "name": "react-input-tags",
   "version": "1.0.0",
   "description": "React component for creating an input that holds multiple tags",
-  "main": "index.js",
+  "main": "src/main.js",
   "repository": {},
   "author": "valentijn nieman",
   "license": "MIT",
