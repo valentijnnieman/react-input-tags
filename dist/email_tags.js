@@ -2187,9 +2187,11 @@ var _tagInput = __webpack_require__(19);
 Object.defineProperty(exports, 'TagInput', {
   enumerable: true,
   get: function get() {
-    return _tagInput.TagInput;
+    return _interopRequireDefault(_tagInput).default;
   }
 });
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
 /* 22 */
