@@ -2176,11 +2176,18 @@ exports.default = Tag;
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _tagInput = __webpack_require__(19);
 
-var _tagInput2 = _interopRequireDefault(_tagInput);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+Object.defineProperty(exports, 'TagInput', {
+  enumerable: true,
+  get: function get() {
+    return _tagInput.TagInput;
+  }
+});
 
 /***/ }),
 /* 22 */
