@@ -2132,7 +2132,11 @@ exports.default = TagInput;
 
 var _tagInput = __webpack_require__(19);
 
-module.exports = { TagInput: _tagInput.TagInput };
+var _tagInput2 = _interopRequireDefault(_tagInput);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = _tagInput2.default;
 
 /***/ }),
 /* 21 */

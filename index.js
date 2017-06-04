@@ -1,2 +1,2 @@
-import { TagInput } from './src/components/tag-input.js';
-module.exports = { TagInput };
+import TagInput from './src/components/tag-input.js';
+module.exports = TagInput ;
