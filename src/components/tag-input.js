@@ -23,10 +23,9 @@ export class TagInput extends React.Component {
   }
   createTag(input) {
     if(this.state.tags.length >= this.props.maxTags) {
-      // here we could handle validation errors a little better in the future
-      alert(this.props.alertMsg)
+      this.props.maxExceeded()
       this.resetInput()
-      return false
+      return 
     }
     let newTags = [...this.state.tags]
     newTags.push(input)
