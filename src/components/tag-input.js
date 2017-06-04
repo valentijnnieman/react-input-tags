@@ -89,5 +89,3 @@ export class TagInput extends React.Component {
     </div>
   }
 }
-
-export default TagInput 
