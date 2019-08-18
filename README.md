@@ -4,7 +4,7 @@ This is a component for an input that holds multiple inputs and displays them as
 
 # How to install
 - `npm install git://github.com/valentijnnieman/react-input-tags.git`
-- In your app, `import TagInput from 'react-input-tags'` if you're using ES6, or 'var TagInput = require('react-input-tags') if you're not
+- In your app, `import TagInput from 'react-input-tags'` if you're using ES6, or `var TagInput = require('react-input-tags')` if you're not
 
 
 # How to use
